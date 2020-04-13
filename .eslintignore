@@ -1,0 +1,9 @@
+/.git
+/.next
+/config
+/typings
+/pages
+node_modules
+**/*.js
+**/*.json
+

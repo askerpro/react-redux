@@ -1,0 +1,82 @@
+[
+  {
+    "path": "home",
+    "title": "Главная",
+    "children": [
+      {
+        "path": "production",
+        "title": "Продукция",
+        "children": [
+          {
+            "path": "windows",
+            "title": "Пластиковые окна",
+            "children": [
+              { "path": "colored", "title": "Цветные пластиковые окна", "excludedFromNav": true },
+              {
+                "path": "custom-design",
+                "title": "Пластиковые окна нестандартных форм",
+                "excludedFromNav": true
+              },
+              {
+                "path": "panoramic",
+                "title": "Панорамные пластиковые окна",
+                "excludedFromNav": true
+              }
+            ]
+          },
+          {
+            "path": "doors",
+            "title": "Пластиковые двери"
+          },
+          {
+            "path": "equipments",
+            "title": "Комплектующие"
+          },
+          {
+            "path": "profiles",
+            "title": "Профильные системы"
+          }
+        ]
+      },
+      {
+        "path": "services",
+        "title": "Услуги",
+        "children": [
+          {
+            "path": "measure",
+            "title": "Бесплатный замер и консультация специалиста"
+          },
+
+          {
+            "path": "repair",
+            "title": "Ремонт окон"
+          },
+          {
+            "path": "montage",
+            "title": "Профессиональный монтаж окон"
+          },
+          {
+            "path": "balconies",
+            "title": "Остекление балконов"
+          }
+        ]
+      },
+      {
+        "path": "calc",
+        "title": "Рассчет стоимости, калькулятор"
+      },
+      {
+        "path": "reviews",
+        "title": "Отзывы"
+      },
+      {
+        "path": "contacts",
+        "title": "Контакты"
+      },
+      {
+        "path": "company",
+        "title": "O компании"
+      }
+    ]
+  }
+]
