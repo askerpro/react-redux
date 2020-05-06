@@ -40,6 +40,7 @@ export const TopWrapper = styled.div`
 
 export const ItemsWrapper = styled.div`
   margin-top: 32px;
+  margin-left: 2px;
 `;
 
 interface NavItemProps extends ListItemProps {

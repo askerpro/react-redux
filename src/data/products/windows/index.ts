@@ -32,14 +32,14 @@ const products: Product[] = [
   {
     name: productTypeVariants[Variants.ONE_SASH].name,
     img: productTypeVariants[Variants.ONE_SASH].img,
-    oldprice: '11 542р.',
-    price: '9 619р.',
+    oldprice: '3450р',
+    price: 'от 2850р/м2',
     size: {
       width: 1200,
       height: 1300,
     },
     equipment: {
-      profile: ProfilesData[Profiles.BERTA_LITE],
+      profile: ProfilesData[Profiles.BERTA_SILVER_ECO_CLASSIC],
       glass: GlassesData[Glasses.STANDART],
       furniture: FurnituresData[Furnitures.INTERNIKA],
       handle: HandlesData[Handles.HOPPE],
@@ -54,14 +54,14 @@ const products: Product[] = [
   {
     name: productTypeVariants[Variants.TWO_SASH].name,
     img: productTypeVariants[Variants.TWO_SASH].img,
-    oldprice: '8 941р.',
-    price: '7 451р.',
+    oldprice: '3450р',
+    price: 'от 2850р/м2',
     size: {
       width: 1200,
       height: 1300,
     },
     equipment: {
-      profile: ProfilesData[Profiles.BERTA_LITE],
+      profile: ProfilesData[Profiles.BERTA_SILVER_ECO_CLASSIC],
       glass: GlassesData[Glasses.STANDART],
       furniture: FurnituresData[Furnitures.INTERNIKA],
       handle: HandlesData[Handles.HOPPE],
@@ -77,14 +77,14 @@ const products: Product[] = [
   {
     name: productTypeVariants[Variants.THREE_SASH].name,
     img: productTypeVariants[Variants.THREE_SASH].img,
-    oldprice: '13 714р.',
-    price: '11 429р.',
+    oldprice: '3450р',
+    price: 'от 2850р/м2',
     size: {
       width: 1200,
       height: 1300,
     },
     equipment: {
-      profile: ProfilesData[Profiles.BERTA_LITE],
+      profile: ProfilesData[Profiles.BERTA_SILVER_ECO_CLASSIC],
       glass: GlassesData[Glasses.STANDART],
       furniture: FurnituresData[Furnitures.INTERNIKA],
       handle: HandlesData[Handles.HOPPE],

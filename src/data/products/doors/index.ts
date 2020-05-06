@@ -33,7 +33,7 @@ const products: Product[] = [
       height: 1300,
     },
     equipment: {
-      profile: ProfilesData[Profiles.BERTA_LITE],
+      profile: ProfilesData[Profiles.BERTA_SILVER_ECO_CLASSIC],
       glass: GlassesData[Glasses.STANDART],
       furniture: FurnituresData[Furnitures.INTERNIKA],
       handle: HandlesData[Handles.HOPPE],
@@ -55,7 +55,7 @@ const products: Product[] = [
       height: 1300,
     },
     equipment: {
-      profile: ProfilesData[Profiles.BERTA_LITE],
+      profile: ProfilesData[Profiles.BERTA_SILVER_ECO_CLASSIC],
       glass: GlassesData[Glasses.STANDART],
       furniture: FurnituresData[Furnitures.INTERNIKA],
       handle: HandlesData[Handles.HOPPE],

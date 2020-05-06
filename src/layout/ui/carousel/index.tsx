@@ -35,11 +35,7 @@ const MyCarousel: React.FC<CarouselProps> = ({ className, children, ...other }) 
       )}
       renderCenterLeftControls={null}
     >
-      {React.Children.toArray(children).map((child) => (
-        <div style={{ padding: '2px' }} key={child.toString()}>
-          {child}
-        </div>
-      ))}
+      {children}
     </Carousel>
   );
 };

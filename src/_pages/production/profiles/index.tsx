@@ -18,7 +18,7 @@ const pageContent: React.FC = () => (
           <Grid container spacing={2}>
             {ProfilesData.map((ProfileData) => {
               return (
-                <Grid item key={ProfileData.name}>
+                <Grid item md={4} sm={6} key={ProfileData.name}>
                   <ProfileCard data={ProfileData} />
                 </Grid>
               );

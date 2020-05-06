@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-
 import MuiCard from '@material-ui/core/Card';
 import { PlayCircleOutline } from '@material-ui/icons';
 import MuiCardMedia from '@material-ui/core/CardMedia';
 import { CardActionArea as CardActionAreaT } from '@material-ui/core';
+import ResponsiveImage from 'utils/responsive-image';
 
 export const CardMedia = styled(MuiCardMedia)`
   position: relative;
@@ -31,7 +31,7 @@ export const Wrapper = styled(MuiCard)`
   width: 100%;
 `;
 
-export const CollectionImage = styled.img`
+export const CollectionImage = styled(ResponsiveImage)`
   width: 100%;
   height: auto;
   max-height: 100%;

@@ -22,7 +22,7 @@ import acessories, { Accessories } from 'data/accessories';
 import UserInputForm, { UserInfo } from 'components/user-input-form';
 import SendMail from 'utils/send-mail';
 
-const initialProfile = Profiles.BERTA_LITE;
+const initialProfile = Profiles.BERTA_SILVER_ECO_CLASSIC;
 
 interface Props {
   initialProductType?: ProductType;

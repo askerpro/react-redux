@@ -31,7 +31,6 @@ const PageNav: React.FC<Props> = ({ title, contentTitle }) => {
 
   const isScrolledDown = useScrollTrigger({ threshold: 150 });
   const [isPanelOpened, setPanelOpened] = React.useState(false);
-  console.log('table-content-rerende');
   React.useEffect(() => {
     document.addEventListener('scroll', () => {
       setPanelOpened(false);

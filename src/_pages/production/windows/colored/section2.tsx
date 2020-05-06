@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, Header, Title, Body, Subtitle } from 'layout/section-content';
-import SectionImage from 'layout/section-image';
+import { Container, Header, Title, Body, Subtitle, SectionImage } from 'layout/section-content';
+
 import NavSection from 'layout/nav-section';
 import { Typography, Box, Grid, Divider } from '@material-ui/core';
 import in1 from './img/inside1.jpg';

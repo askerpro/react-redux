@@ -1,8 +1,7 @@
 import React from 'react';
-import { Container, Header, Title, Body } from 'layout/section-content';
+import { Container, Header, Title, Body, SectionImage } from 'layout/section-content';
 import NavSection from 'layout/nav-section';
 import { Typography, Box } from '@material-ui/core';
-import SectionImage from 'layout/section-image';
 import img1 from './img/sealants.jpg';
 
 const title = 'Замена уплотнителей';

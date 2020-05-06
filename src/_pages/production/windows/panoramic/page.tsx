@@ -5,10 +5,10 @@ import {
   Title,
   Body,
   Section,
-  Caption,
+  Overline,
   HeaderImage,
+  SectionImage,
 } from 'layout/section-content';
-import SectionImage from 'layout/section-image';
 import NavSection from 'layout/nav-section';
 import Page from 'layout/page';
 import { Typography, Box } from '@material-ui/core';
@@ -19,12 +19,12 @@ const pageContent = () => (
   <Page
     title={pageData.title}
     description={pageData.description}
+    headerImg={<HeaderImage {...headerImg} />}
     header={
       <Section noBorder>
-        <HeaderImage {...headerImg} />
         <Container>
           <Header>
-            <Caption>{pageData.overline}</Caption>
+            <Overline>{pageData.overline}</Overline>
             <Title>{pageData.title}</Title>
           </Header>
           <Body>

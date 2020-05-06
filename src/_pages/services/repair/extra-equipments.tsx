@@ -1,8 +1,7 @@
 import React from 'react';
-import { Container, Header, Title, Body } from 'layout/section-content';
+import { Container, Header, Title, Body, SectionImage } from 'layout/section-content';
 import NavSection from 'layout/nav-section';
 import { Typography, Box, List, ListItemIcon, ListItem } from '@material-ui/core';
-import SectionImage from 'layout/section-image';
 import { Done } from '@material-ui/icons';
 import img1 from './img/equipments.jpg';
 

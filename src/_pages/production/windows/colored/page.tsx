@@ -12,16 +12,16 @@ import Page from 'layout/page';
 import Section1 from './section1';
 import Section2 from './section2';
 import Section3 from './section3';
-import headerImage from './img/outside1.jpg';
+import headerImage from './img/inside2.jpg';
 import { title, description, caption } from './data';
 
 const pageContent = () => (
   <Page
     title={title}
     description={description}
+    headerImg={<HeaderImage {...headerImage} />}
     header={
       <Section noBorder>
-        <HeaderImage {...headerImage} />
         <Container>
           <Header>
             <Overline>{caption}</Overline>

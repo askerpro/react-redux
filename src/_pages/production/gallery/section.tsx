@@ -23,8 +23,8 @@ const GallerySection = () => {
         <Body>
           <Grid container spacing={1}>
             {GalleryItems.slice(0, count).map((itemData) => (
-              <Grid item xs={6} md={4} key={`${itemData.location}${itemData.date}`}>
-                <GalleryCard {...itemData} />
+              <Grid item xs={6} md={4} key={itemData.src}>
+                <GalleryCard imgData={itemData} />
               </Grid>
             ))}
           </Grid>

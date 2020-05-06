@@ -5,7 +5,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) =>
   axios
     .get('https://ok-crm.ru/api/site/reviews.php')
     .then((response) => {
-      res.end(response.data);
+      res.send(response.data);
     })
     .catch((error) => {
       res.send(error);

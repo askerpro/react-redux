@@ -42,7 +42,7 @@ const Header: React.FC<Props> = ({ border, swipableDrawer, transparentBgOnTop })
     };
   }, []);
   const header = (
-    <E.Header visible={transparentBgOnTop ? !isOnTop : true}>
+    <E.Header isVisible={transparentBgOnTop ? !isOnTop : true}>
       <E.NavWrapper>
         <E.NavContainer>
           <E.Left>

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-
-import { Container, Link, AppBar } from '@material-ui/core';
+import React from 'react';
+import { Container, Link, AppBar, AppBarProps } from '@material-ui/core';
 import LogoT from 'layout/logo';
 
 export const vars = {
@@ -23,11 +23,12 @@ export const Logo = styled(LogoT)`
   height: 24px;
 ` as typeof LogoT;
 
-interface BackGroundProps {
-  visible?: boolean;
+interface CustomAppBarProps extends AppBarProps {
+  isVisible?: boolean;
 }
-export const Header = styled(AppBar)<BackGroundProps>`
-  background-color: ${({ theme, visible }) => (visible ? theme.palette.primary.main : '#0000')};
+
+export const Header = styled(AppBar)<CustomAppBarProps>`
+  background-color: ${({ theme, isVisible }) => (isVisible ? theme.palette.primary.main : '#0000')};
   transition: 0.3s;
 `;
 

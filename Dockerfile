@@ -1,6 +1,6 @@
 FROM node:latest
 
-WORKDIR /www
+WORKDIR /usr/src/app
 
 COPY package.json ./
 
@@ -14,4 +14,4 @@ RUN yarn build
 
 EXPOSE 8080
 
-CMD ["yarn", "start-d"]
+CMD ["yarn", "start"]

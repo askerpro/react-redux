@@ -24,7 +24,7 @@ export const getReviews = async (): Promise<Review[]> => {
   try {
     const response = await fetch(url);
     const responseData = await response.json();
-    console.log(responseData);
+    console.log(response);
     if (Array.isArray(responseData)) {
       reviews = responseData.sort((review1, review2) => {
         const date1 = new Date(review1.date);

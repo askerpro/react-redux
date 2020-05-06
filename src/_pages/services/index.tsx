@@ -9,7 +9,7 @@ import MeasurePromo from './measure/promo-section';
 
 import { title, description } from './data';
 
-const promos = [MontagePromo, RepairPromo, MeasurePromo, BalconiesPromo];
+const promos = [RepairPromo, MeasurePromo, MontagePromo, BalconiesPromo];
 
 export default () => (
   <Page
@@ -26,12 +26,8 @@ export default () => (
       </Section>
     }
   >
-    <Section noBorder>
-      <Container>
-        {promos.map((PromoSection, i) => (
-          <PromoSection key={i} />
-        ))}
-      </Container>
-    </Section>
+    {promos.map((PromoSection, i) => (
+      <PromoSection key={i} />
+    ))}
   </Page>
 );

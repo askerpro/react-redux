@@ -15,9 +15,9 @@ const themes = {
   [Theme.DARK]: '#fff',
 };
 
-const Logo: React.FC<Props> = (
+const Logo: React.ForwardRefRenderFunction<SVGSVGElement, Props> = (
   { theme = Theme.DARK, className },
-  ref: React.Ref<SVGSVGElement>,
+  ref,
 ) => (
   <svg ref={ref} viewBox="0 0 108.66845 28.409388" className={className}>
     <g transform="matrix(.25939 0 0 -.25839 -10.358 -77.92)">

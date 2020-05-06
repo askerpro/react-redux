@@ -61,10 +61,10 @@ export default () => {
                 <E.TitleWrapper>
                   <E.Title variant="h2" component="h1" color="textPrimary">
                     Заводские пластиковые окна от{' '}
-                    <E.Price component="span" variant="h1">
-                      2550
+                    <E.Price component="span" variant="h1" style={{ fontWeight: 500 }}>
+                      2850р{' '}
                     </E.Price>
-                    р / м2
+                    / м2
                   </E.Title>
                 </E.TitleWrapper>
                 <E.ActionsWrapper>

@@ -98,7 +98,7 @@ export const Image = styled((props) => (
   width: 100%;
   height: auto;
   max-height: 350px;
-  object-fit: cover;
+  object-fit: contain;
 `;
 
 export const Video = styled(({ src, ...other }) => (
@@ -119,9 +119,16 @@ export const SectionImage: React.FC<SectionImageProps> = ({ images }) =>
   images.length > 1 ? (
     <Carousel heightMode="current">
       {images.map((imageData) => (
-        <div key={imageData.src}>
-          <Image {...imageData} />
-        </div>
+        <Image
+          key={imageData.src}
+          onError={() => {
+            console.log('onerror');
+          }}
+          onLoad={() => {
+            console.log('onload');
+          }}
+          {...imageData}
+        />
       ))}
     </Carousel>
   ) : (
