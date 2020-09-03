@@ -20,7 +20,7 @@
     "axios": "^0.19.2",
     "cuid": "^2.1.8",
     "firebase": "^7.8.1",
-    "lazysizes": "5.2.0",
+    "lazysizes": "5.2.1",
     "maildev": "^1.1.0",
     "next": "^9.2.1",
     "next-redux-wrapper": "^4.0.1",
